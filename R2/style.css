@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.default {
+    width: 100%;
+    text-align: left;
+    background-color: #BEB6BF;
+}
+
+table.default td {
+    padding: .2em .8em;
+    text-align: left;
+}
+
+table.default th {
+    padding: .2em .8em;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    body {
+        width: auto;
+    }
+    table.default td {
+        font-size: 14px;
+        padding: .1em .4em;
+    }
+    table.default th {
+        font-size: 12px;
+        padding: .1em .4em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        width: auto;
+    }
+    table.default td {
+        font-size: 16px;
+    }
+    table.default th {
+        font-size: 18px;
+    }
+}
